@@ -7,7 +7,7 @@ load_dotenv()
 
 llm=HuggingFaceEndpoint(
     repo_id="TinyLama/TinyLama-1.1B-Chat-v1.0",
-    tasks="text-generation"
+    task="text-generation"
 )
 
 
